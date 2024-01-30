@@ -1,0 +1,225 @@
+/*  Components:
+
+    Functions:
+    
+    Author: Skylar Riopel
+
+    description: css file for restaurant information
+
+    Notes:
+     */
+.res-text {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.res-text-1 {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    height: 30%;
+}
+
+.res-button{
+    width: 200px;
+    height: 60px;
+}
+
+.centered{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.sbs{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.meal-name{
+    width: 200px;
+    height: 50px;
+}
+
+.button1 {
+    font: bold 11px Arial;
+    text-decoration: none;
+    text-align: center;
+    background-color: #fefefe;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 2px solid #bbbbbb;
+    border-right: 2px solid #333333;
+    border-bottom: 2px solid #333333;
+    border-left: 2px solid #bbbbbb;
+    width:60%;
+    transform: translate(30%,0%);
+    border-radius: 8px;
+    transition: ease-out 0.3s;
+}
+
+.button1:hover {
+    background-color: #d3d3d3;
+}
+.button1Dis {
+    font: bold 11px Arial;
+    text-decoration: none;
+    text-align: center;
+    background-color: #fefefe;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 2px solid #bbbbbb;
+    border-right: 2px solid #333333;
+    border-bottom: 2px solid #333333;
+    border-left: 2px solid #bbbbbb;
+    width:20%;
+    border-radius: 8px;
+}
+.button2 {
+    font: bold 11px Arial;
+    text-decoration: none;
+    text-align: center;
+    background-color: #fefefe;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 2px solid #bbbbbb;
+    border-right: 2px solid #333333;
+    border-bottom: 2px solid #333333;
+    border-left: 2px solid #bbbbbb;
+    width:30%;
+    max-width: 200px;
+    min-width: 85px;
+    border-radius: 8px;
+    transition: ease-out 0.3s;
+}
+.button2:hover {
+    background-color: #d3d3d3;
+}
+
+.button2Dis {
+    font: bold 11px Arial;
+    text-decoration: none;
+    text-align: center;
+    background-color: #fefefe;
+    color: #bbbbbb;
+    padding: 2px 6px 2px 6px;
+    border-top: 2px solid #bbbbbb;
+    border-right: 2px solid #333333;
+    border-bottom: 2px solid #333333;
+    border-left: 2px solid #bbbbbb;
+    width:20%;
+    max-width: 180px;
+    min-width: 85px;
+    border-radius: 8px;
+    transition: ease-out 0.3s;
+}
+
+.button3 {
+    font: bold 11px Arial;
+    text-decoration: none;
+    color: black;
+    background-color: #fefefe;
+    padding: 2px 6px 2px 6px;
+    border-top: 2px solid #bbbbbb;
+    border-right: 2px solid #333333;
+    border-bottom: 2px solid #333333;
+    border-left: 2px solid #bbbbbb;
+    width: 100%;
+    height: 80%;
+    transform: translate(0%,10%);
+    aspect-ratio: 1/1;
+    border-radius: 8px;
+}
+
+.button3:hover {
+    background-color: #d3d3d3;
+    border-top: 2px solid #333333;
+    border-right: 2px solid #bbbbbb;
+    border-bottom: 2px solid #bbbbbb;
+    border-left: 2px solid #333333;
+}
+
+.button4 {
+    font: bold 11px Arial;
+    text-decoration: none;
+    text-align: center;
+    background-color: #fefefe;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 2px solid #bbbbbb;
+    border-right: 2px solid #333333;
+    border-bottom: 2px solid #333333;
+    border-left: 2px solid #bbbbbb;
+    width:30%;
+    transform: translate(100%,0%);
+    max-width: 200px;
+    min-width: 85px;
+    border-radius: 8px;
+    transition: ease-out 0.3s;
+}
+
+.variableTextSize{
+    font-size: 0.8vw;
+}
+
+.inline-block-thin{
+    width: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+}
+
+.inline-block-wide{
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+}
+
+.small-image{
+    object-fit: cover;
+    width: 90%;
+    height: 90%;
+    transform: translate(0%,5%);
+}
+
+
+
+.small-image-center{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.width{
+    width: 20vw;
+}
+
+
+.width200{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+.horiz-no-border{
+    border: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.gray-background{
+    background-color: #707070;
+    column-span: all;
+}
+
